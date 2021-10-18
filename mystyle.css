@@ -1,0 +1,259 @@
+
+
+.logo img{
+
+/* text-align: left; */
+float: left;
+margin-left: 5%;
+margin-top: 1%;
+
+}
+
+.logo h1{
+
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+position: relative;
+top: 100px;
+left: 180px;
+font-size:70px;
+margin-bottom: 5%;
+
+
+}
+
+.logo h5{
+position: relative;
+top: 100px;
+left: 580px;
+font-size:20px;
+
+}
+
+.nav-list {
+width: 100%;
+display: flex;
+align-items: center;
+}
+
+.nav-list li {
+
+list-style: none;
+padding: 66px 75px 60px 90px  ;
+}
+
+.nav-list li a {
+
+text-decoration: none;
+color:black;
+font-size: larger;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-list li a:hover {
+
+color: darkred;
+}
+.border1{
+
+border: 5px solid black;
+margin-top: 15%;
+}
+
+.border2{
+
+border: 5px solid black;
+margin-top: 2%;
+}
+
+* {
+box-sizing: border-box;
+}
+
+.thead{
+ text-align: center;
+ border: 3px solid lightcoral;
+ margin-right: 70%;
+}
+.timeline {
+position: relative;
+max-width: 1200px;
+margin: 0% 70% 14% 0%;
+
+}
+
+.timeline::after {
+content: '';
+position: absolute;
+width: 6px;
+background-color: darkcyan;
+top: 0;
+bottom: 0;
+left: 50%;
+margin-left: -3px;
+}
+
+.container {
+padding: 10px 40px;
+position: relative;
+background-color: inherit;
+width: 50%;
+}
+
+.container::after {
+content: '';
+position: absolute;
+width: 25px;
+height: 25px;
+right: -17px;
+background-color: white;
+border: 4px solid lightcoral;
+top: 15px;
+border-radius: 50%;
+z-index: 1;
+}
+.left {
+left: 0;
+}
+
+.right {
+left: 50%;
+}
+
+.left::before {
+content: " ";
+height: 0;
+position: absolute;
+top: 22px;
+width: 0;
+z-index: 1;
+right: 30px;
+border: medium solid white;
+border-width: 10px 0 10px 10px;
+border-color: transparent transparent transparent aquamarine;
+}
+
+.right::before {
+content: " ";
+height: 0;
+position: absolute;
+top: 22px;
+width: 0;
+z-index: 1;
+left: 30px;
+border: medium solid white;
+border-width: 10px 10px 10px 0;
+border-color: transparent aquamarine transparent transparent;
+}
+
+.right::after {
+left: -16px;
+}
+
+.content {
+padding: 10px 10px 30px ;
+background-color: aquamarine;
+position: relative;
+border-radius: 5px;
+}
+@media screen and (max-width: 600px) {
+/* Place the timelime to the left */
+  .timeline::after {
+    left: 29px;
+  }
+  .container {
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 25px;
+  }
+  .container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+  .left::after, .right::after {
+    left: 15px;
+  }
+  
+  .right {
+    left: 0%;
+  }
+} 
+
+.me{
+position: relative;
+bottom: 1290px;
+left: 550px;
+font-size:15px;
+width: 40%;
+}
+.para{
+
+font-size: large;
+font-family: cursive;
+text-align: justify;
+padding-top: 4%;
+}
+.pic{
+position: relative;  
+bottom: 1900px; 
+margin-left: 85%;
+
+}
+
+.myphotos{
+
+/* border: 2px dashed black; */
+position: relative;
+bottom: 1467px;
+text-align: right;
+margin-left: 25%;
+
+
+
+/* padding-left: 1%; */
+}
+.center{
+
+width: 90%;
+/* text-align: right; */
+}
+.woods{
+
+margin-left: 1%;
+}
+
+/* .border3{
+  position: relative; 
+  margin-bottom: 1380px;
+  border: 5px solid black;
+  margin-top: 2%;
+  padding-top: 0%;
+  margin-left: 2px;
+  margin-right: 2px;
+  text-align: left;
+} */
+
+.collegeadd{
+  
+  position: relative;
+  margin-left: 39%;
+  bottom:1495px ;
+ 
+  /* margin-bottom: 3450px; */
+} 
+.homead{
+  border:5px solid black;
+  position: relative;
+  
+  bottom:1378px ;
+}
+.contactd{
+  position: relative;
+  /* bottom: 45px */
+  margin-left: 65%;
+  bottom: 100px;
+}
+
+
